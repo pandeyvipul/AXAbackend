@@ -1,0 +1,216 @@
+[
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593fe4"
+    },
+    "name": "Vipul Admin",
+    "email": "admin@samarthya.in",
+    "password": "$2a$12$adk771H..TCCFwOl9l/rG.EiDe6LW3yYnOM2Q0dnHIQfhoEwyU5h6",
+    "role": "admin",
+    "isBlocked": false,
+    "credits": 0,
+    "points": 0,
+    "dailyStreak": 0,
+    "lastLogin": null,
+    "badges": [],
+    "skillsVerified": [],
+    "skillsWanted": [],
+    "resumeData": {
+      "summary": "",
+      "experience": [],
+      "education": []
+    },
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593fe5"
+    },
+    "name": "Aarav Sharma",
+    "email": "aarav@samarthya.in",
+    "password": "$2a$12$u7fqCiBJecXdDmE.Q52bJumtul8/N8pbMSAwz0aNsM1VYc5SC3sI6",
+    "role": "student",
+    "isBlocked": false,
+    "credits": 5,
+    "points": 120,
+    "dailyStreak": 4,
+    "lastLogin": null,
+    "badges": [
+      "Early Bird",
+      "Quiz Master"
+    ],
+    "skillsVerified": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "skillsWanted": [
+      "Python",
+      "Machine Learning"
+    ],
+    "resumeData": {
+      "summary": "",
+      "experience": [],
+      "education": []
+    },
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593fe6"
+    },
+    "name": "Diya Patel",
+    "email": "diya@samarthya.in",
+    "password": "$2a$12$grdhHXYnG32oaix3AQ6ABe2UJIfsOcBXXAGeyrk23mJ3tnja8Hk.e",
+    "role": "student",
+    "isBlocked": false,
+    "credits": 8,
+    "points": 260,
+    "dailyStreak": 12,
+    "lastLogin": null,
+    "badges": [
+      "Streak Champion"
+    ],
+    "skillsVerified": [
+      "Python",
+      "Machine Learning",
+      "SQL"
+    ],
+    "skillsWanted": [
+      "React",
+      "UI/UX Design"
+    ],
+    "resumeData": {
+      "summary": "",
+      "experience": [],
+      "education": []
+    },
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593fe7"
+    },
+    "name": "Kabir Mehta",
+    "email": "kabir@samarthya.in",
+    "password": "$2a$12$VdmHtK8vbty8MZtrjwZakuBeEWx8VEsw4HWbg6kCINky4fN9HQZdG",
+    "role": "student",
+    "isBlocked": false,
+    "credits": 3,
+    "points": 40,
+    "dailyStreak": 1,
+    "lastLogin": null,
+    "badges": [],
+    "skillsVerified": [
+      "Java",
+      "DSA"
+    ],
+    "skillsWanted": [
+      "React",
+      "Git"
+    ],
+    "resumeData": {
+      "summary": "",
+      "experience": [],
+      "education": []
+    },
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593fe8"
+    },
+    "name": "Ishita Rao",
+    "email": "ishita@samarthya.in",
+    "password": "$2a$12$xyEhwsr1cvUcWb2C.mR51ee7jsBw22TIa/1JRhthMjztP7w5qpZMK",
+    "role": "student",
+    "isBlocked": false,
+    "credits": 6,
+    "points": 180,
+    "dailyStreak": 7,
+    "lastLogin": null,
+    "badges": [
+      "Quiz Master"
+    ],
+    "skillsVerified": [
+      "UI/UX Design",
+      "Communication"
+    ],
+    "skillsWanted": [
+      "React",
+      "Node.js"
+    ],
+    "resumeData": {
+      "summary": "",
+      "experience": [],
+      "education": []
+    },
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593fe9"
+    },
+    "name": "Rohan Verma",
+    "email": "rohan@samarthya.in",
+    "password": "$2a$12$kSisT3TSE8vLR7UxIOJmeeQMNgKL1/VCY/o4EJtfogBy486E3fOCi",
+    "role": "student",
+    "isBlocked": true,
+    "credits": 2,
+    "points": 15,
+    "dailyStreak": 0,
+    "lastLogin": null,
+    "badges": [],
+    "skillsVerified": [
+      "DevOps",
+      "Docker",
+      "Git"
+    ],
+    "skillsWanted": [
+      "Python",
+      "SQL"
+    ],
+    "resumeData": {
+      "summary": "",
+      "experience": [],
+      "education": []
+    },
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  }
+]

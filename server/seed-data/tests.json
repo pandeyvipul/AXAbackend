@@ -1,0 +1,361 @@
+[
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593fea"
+    },
+    "creatorId": {
+      "$oid": "6a2a73309d50d56ebc593fe5"
+    },
+    "skillCategory": "React",
+    "title": "React Fundamentals: Hooks & State",
+    "difficulty": "Beginner",
+    "status": "live",
+    "betaTestersCount": 12,
+    "successRate": 78,
+    "userRating": 4.5,
+    "totalAttempts": 30,
+    "questions": [
+      {
+        "questionText": "Which hook is used to manage state in a functional component?",
+        "options": [
+          "useEffect",
+          "useState",
+          "useRef",
+          "useMemo"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "useState lets you add local state to a functional component."
+      },
+      {
+        "questionText": "What does useEffect run after by default?",
+        "options": [
+          "Every render",
+          "Only on unmount",
+          "Only once ever",
+          "Never"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "By default, useEffect runs after every render unless a dependency array is provided."
+      },
+      {
+        "questionText": "How do you pass data from a parent to a child component?",
+        "options": [
+          "State",
+          "Props",
+          "Context only",
+          "Refs"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Props are used to pass data from parent components to child components."
+      },
+      {
+        "questionText": "Which array tells useEffect to run only once on mount?",
+        "options": [
+          "undefined",
+          "[]",
+          "[state]",
+          "null"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "An empty dependency array [] means the effect runs only once, after the initial render."
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593feb"
+    },
+    "creatorId": {
+      "$oid": "6a2a73309d50d56ebc593fe6"
+    },
+    "skillCategory": "Python",
+    "title": "Python Basics: Data Types & Loops",
+    "difficulty": "Beginner",
+    "status": "live",
+    "betaTestersCount": 20,
+    "successRate": 85,
+    "userRating": 4.8,
+    "totalAttempts": 45,
+    "questions": [
+      {
+        "questionText": "Which of these is a mutable data type in Python?",
+        "options": [
+          "tuple",
+          "string",
+          "list",
+          "int"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Lists are mutable, meaning their contents can be changed after creation."
+      },
+      {
+        "questionText": "What does the range(5) function generate?",
+        "options": [
+          "1 to 5",
+          "0 to 4",
+          "0 to 5",
+          "1 to 4"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "range(5) generates numbers from 0 up to (but not including) 5."
+      },
+      {
+        "questionText": "Which keyword is used to define a function in Python?",
+        "options": [
+          "function",
+          "def",
+          "func",
+          "lambda"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "The \"def\" keyword is used to define a function in Python."
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593fec"
+    },
+    "creatorId": {
+      "$oid": "6a2a73309d50d56ebc593fe6"
+    },
+    "skillCategory": "Machine Learning",
+    "title": "Intro to Machine Learning Concepts",
+    "difficulty": "Intermediate",
+    "status": "live",
+    "betaTestersCount": 8,
+    "successRate": 60,
+    "userRating": 4.2,
+    "totalAttempts": 14,
+    "questions": [
+      {
+        "questionText": "What type of learning uses labeled data?",
+        "options": [
+          "Unsupervised learning",
+          "Supervised learning",
+          "Reinforcement learning",
+          "Clustering"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Supervised learning algorithms are trained on labeled data."
+      },
+      {
+        "questionText": "Which metric is commonly used for classification accuracy?",
+        "options": [
+          "Mean Squared Error",
+          "F1 Score",
+          "R-squared",
+          "Standard Deviation"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "F1 Score balances precision and recall and is widely used for classification tasks."
+      },
+      {
+        "questionText": "Overfitting occurs when a model:",
+        "options": [
+          "Performs poorly on training data",
+          "Performs well on training but poorly on new data",
+          "Performs equally on all data",
+          "Cannot be trained at all"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Overfitting means the model has memorized the training data and fails to generalize."
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593fed"
+    },
+    "creatorId": {
+      "$oid": "6a2a73309d50d56ebc593fe7"
+    },
+    "skillCategory": "DSA",
+    "title": "Data Structures: Arrays & Linked Lists",
+    "difficulty": "Intermediate",
+    "status": "beta",
+    "betaTestersCount": 2,
+    "successRate": 50,
+    "userRating": 0,
+    "totalAttempts": 2,
+    "questions": [
+      {
+        "questionText": "What is the time complexity of accessing an element in an array by index?",
+        "options": [
+          "O(n)",
+          "O(log n)",
+          "O(1)",
+          "O(n^2)"
+        ],
+        "correctOptionIndex": 2,
+        "explanation": "Arrays provide constant time O(1) access via index."
+      },
+      {
+        "questionText": "In a singly linked list, each node contains:",
+        "options": [
+          "Data and a pointer to the previous node",
+          "Data and a pointer to the next node",
+          "Only data",
+          "Two pointers and no data"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "A singly linked list node stores data plus a reference (pointer) to the next node."
+      },
+      {
+        "questionText": "Which operation is generally faster on a linked list than an array?",
+        "options": [
+          "Random access",
+          "Insertion at the beginning",
+          "Binary search",
+          "Sorting"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Inserting at the beginning of a linked list is O(1), while arrays require shifting elements."
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593fee"
+    },
+    "creatorId": {
+      "$oid": "6a2a73309d50d56ebc593fe8"
+    },
+    "skillCategory": "UI/UX Design",
+    "title": "UI/UX Design Principles",
+    "difficulty": "Beginner",
+    "status": "beta",
+    "betaTestersCount": 1,
+    "successRate": 0,
+    "userRating": 0,
+    "totalAttempts": 1,
+    "questions": [
+      {
+        "questionText": "What does \"UX\" stand for?",
+        "options": [
+          "User Experience",
+          "User Extension",
+          "Universal Exchange",
+          "Unified Xperience"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "UX stands for User Experience, focusing on how a user feels using a product."
+      },
+      {
+        "questionText": "Which principle suggests keeping similar elements visually consistent?",
+        "options": [
+          "Contrast",
+          "Consistency",
+          "Isolation",
+          "Randomness"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Consistency helps users predict how interface elements behave across a product."
+      },
+      {
+        "questionText": "A wireframe is best described as:",
+        "options": [
+          "A finished, polished design",
+          "A low-fidelity layout blueprint of a screen",
+          "A marketing document",
+          "A type of programming language"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "Wireframes are simple, low-fidelity layouts used to plan structure before visual design."
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6a2a73309d50d56ebc593fef"
+    },
+    "creatorId": {
+      "$oid": "6a2a73309d50d56ebc593fe9"
+    },
+    "skillCategory": "Docker",
+    "title": "Docker & Containers Basics",
+    "difficulty": "Intermediate",
+    "status": "flagged",
+    "betaTestersCount": 3,
+    "successRate": 33,
+    "userRating": 2.1,
+    "totalAttempts": 5,
+    "questions": [
+      {
+        "questionText": "What is a Docker image?",
+        "options": [
+          "A running instance of a container",
+          "A read-only template used to create containers",
+          "A virtual machine",
+          "A network configuration file"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "A Docker image is a read-only template that contains instructions for creating a container."
+      },
+      {
+        "questionText": "Which command is used to list running containers?",
+        "options": [
+          "docker ps",
+          "docker list",
+          "docker show",
+          "docker run"
+        ],
+        "correctOptionIndex": 0,
+        "explanation": "\"docker ps\" lists currently running containers."
+      },
+      {
+        "questionText": "What file is commonly used to define a Docker image build process?",
+        "options": [
+          "docker.yml",
+          "Dockerfile",
+          "image.config",
+          "container.json"
+        ],
+        "correctOptionIndex": 1,
+        "explanation": "A Dockerfile contains the step-by-step instructions to build a Docker image."
+      }
+    ],
+    "createdAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "updatedAt": {
+      "$date": "2026-06-11T08:34:56.927Z"
+    },
+    "__v": 0
+  }
+]
