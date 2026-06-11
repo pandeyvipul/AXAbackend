@@ -1,7 +1,7 @@
 // server/controllers/aiController.js
 const { HfInference } = require('@huggingface/inference');
 
-const hf = new HfInference("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");
+const hf = new HfInference(process.env.HF_TOKEN);
 const MODEL = 'meta-llama/Meta-Llama-3-8B-Instruct';
 
 // Helper to call HuggingFace inference with a system + user message
