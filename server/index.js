@@ -33,15 +33,9 @@ app.use('/student', require('./routes/student'));
 app.use('/adminvipul755', require('./routes/admin'));
 
 // ─── Serve React Frontend in Production ──────────────────────────
-if (process.env.NODE_ENV === 'production') {
-  const clientBuildPath = path.join(__dirname, '../client/dist');
-  app.use(express.static(clientBuildPath));
-  // All non-API routes go to React
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(clientBuildPath, 'index.html'));
-  });
-}
-
+app.get("/", (req, res) => {
+  res.send("Backend is running");
+});
 // ─── Global Error Handler (must be last middleware) ───────────────
 app.use(errorHandler);
 
