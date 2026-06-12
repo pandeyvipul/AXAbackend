@@ -2,7 +2,7 @@
 const { HfInference } = require('@huggingface/inference');
 
 const hf = new HfInference(process.env.HF_TOKEN);
-const MODEL = 'meta-llama/Meta-Llama-3-8B-Instruct';
+const MODEL = 'HuggingFaceH4/zephyr-7b-beta';
 
 // Helper to call HuggingFace inference with a system + user message
 const callHuggingFace = async (systemPrompt, userContent) => {
