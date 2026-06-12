@@ -1,14 +1,10 @@
 const OpenAI = require("openai");
 
-<<<<<<< HEAD
-const hf = new HfInference(process.env.HF_TOKEN);
-const MODEL = 'HuggingFaceH4/zephyr-7b-beta';
-=======
+
 const client = new OpenAI({
   apiKey: "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",
   baseURL: "https://api.groq.com/openai/v1",
 });
->>>>>>> 00cdcce (Added dotenv setup and fixed server issue)
 
 const MODEL = "llama-3.3-70b-versatile";
 
